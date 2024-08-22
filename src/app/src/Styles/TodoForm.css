@@ -1,0 +1,28 @@
+.TodoForm h2 {
+    text-align: center;
+  }
+  
+  .TodoForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .TodoForm input {
+    padding: 8px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .TodoForm button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .TodoForm button:disabled {
+    background-color: #ccc;
+  }
+  
